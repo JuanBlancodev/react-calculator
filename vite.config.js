@@ -6,5 +6,9 @@ export default defineConfig({
   plugins: [react()],
   build: {
     sourcemap: true
+  },
+  base: "http://JuanBlancodev.github.io/react-calculator",
+  server: {
+    cors: true
   }
 })
