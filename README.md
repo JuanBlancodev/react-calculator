@@ -1,4 +1,15 @@
-# Calculadora en React
+<style>
+  ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+</style>
+
+<div style="display: flex; align-items: center; gap: 10px;">
+  <h1>Calculadora creada con React</h1>
+  <img src="screenshots/react.png" alt='ReactJS' widht="50" height="50">
+</div>
 
 Una simple calculadora desarrollada en React para realizar operaciones matemáticas básicas.
 
@@ -18,13 +29,51 @@ Una simple calculadora desarrollada en React para realizar operaciones matemáti
 | **Registro vacío** <br> En esta captura de pantalla se muestra el registro de cálculos de la calculadora, donde se pueden ver los resultados de las operaciones realizadas previamente. | ![Registro vacío](screenshots/log1.png) |
 | **Pantalla de confirmación para vaciar el registro** <br> Para evitar borrar accidentalmente los cálculos registrados, la aplicación muestra una pantalla de confirmación al intentar vaciar el registro. | ![Pantalla de confirmación para vaciar el registro](screenshots/clean_log.png) |
 
+## Clonar el proyecto
+
+Si quieres clonar este proyecto en tu máquina local, sigue estos pasos:
+
+1. Abre tu terminal.
+2. Navega hasta la carpeta donde quieras clonar el proyecto.
+3. Ejecuta el siguiente comando para clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/JuanBlancodev/react-calculator.git
+   ```
+4. Una vez hayas clonado el proyecto, ingresa a la carpeta con:
+
+   ```bash
+   git clone https://github.com/JuanBlancodev/react-calculator.git
+   ```
+5. Instala las dependencias del proyecto ejecutando uno de los siguientes comandos, dependiendo de tu gestor de paquetes:
+
+   ```bash
+   npm install
+   ```
+   o
+   ```bash
+   yarn install
+   ```
+
+### Ahora puedes empezar a trabajar en el proyecto en tu máquina local.
+
 ## Tecnologías utilizadas
 
-- React
-- HTML
-- CSS
+<ul>
+  <li>
+    <img src="screenshots/html-5.png" alt="HTML" width="20" height="20"> <b>HTML</b>
+  </li>
+  <li>
+    <img src="screenshots/css-3.png" alt="CSS" width="20" height="20"> <b>CSS</b>
+  </li>
+  <li>
+    <img src="screenshots/react.png" alt='ReactJS' widht="20" height="20"> <b>React</b>
+  </li>
+</ul>
 
 ## Autor
 
-- Nombre: [Juan Blanco]
-- GitHub: [@JuanBlancodev](https://github.com/JuanBlancodev)
+- **Nombre**
+  _Juan Blanco_
+- **GitHub**
+  [@JuanBlancodev](https://github.com/JuanBlancodev)
