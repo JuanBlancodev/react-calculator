@@ -50,9 +50,7 @@ Si quieres clonar este proyecto en tu máquina local, sigue estos pasos:
    ```bash
    yarn install
    ```
-
-### Ahora puedes empezar a trabajar en el proyecto en tu máquina local.
-
+   
 ## Tecnologías utilizadas
 
 <ul>
