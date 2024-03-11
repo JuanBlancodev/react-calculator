@@ -1,5 +1,4 @@
 import { createContext, useState } from "react";
-import { simplify } from "mathjs";
 
 const GlobalContext = createContext()
 
@@ -19,7 +18,7 @@ const GlobalContextProvider = ({ children }) => {
     const formula = display.replace(/([^0-9.])/g, ' $1 ');
 
     const replacedDisplay = display.replace(/x/g, '*').replace(/÷/g, '/');
-    const result = simplify(replacedDisplay).toString()
+    const result = eval(replacedDisplay).toString().replace(/\*/g, 'x').replace(/\//g, '÷');
 
     setDisplay(result)
     setLog([...log, { formula, result }])
