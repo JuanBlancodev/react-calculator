@@ -74,8 +74,4 @@ Si quieres clonar este proyecto en tu máquina local, sigue estos pasos:
 - **Nombre**
   _Juan Blanco_
 - **GitHub**
-<<<<<<< HEAD
   [@JuanBlancodev](https://github.com/JuanBlancodev?tab=repositories)
-=======
-  [@JuanBlancodev](https://github.com/JuanBlancodev)
->>>>>>> db6d13b82c76334f516c8267c2a0e29c758bc0c4
