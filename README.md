@@ -1,10 +1,3 @@
-<style>
-  .screenshot {
-    with: 300px;
-    height: 300px;
-  }
-</style>
-
 # Calculadora en React
 
 Una simple calculadora desarrollada en React para realizar operaciones matemáticas básicas.
