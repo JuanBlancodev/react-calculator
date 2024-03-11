@@ -35,7 +35,7 @@ Si quieres clonar este proyecto en tu máquina local, sigue estos pasos:
 4. Una vez hayas clonado el proyecto, ingresa a la carpeta con:
 
    ```bash
-   git clone https://github.com/JuanBlancodev/react-calculator.git
+   cd react-calculator
    ```
 5. Instala las dependencias del proyecto ejecutando uno de los siguientes comandos, dependiendo de tu gestor de paquetes:
 
