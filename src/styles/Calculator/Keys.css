@@ -1,0 +1,27 @@
+.calculator .keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.calculator .btn-keys{
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eeeded;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  outline: none;
+}
+
+.calculator .btn-keys:hover{
+  background-color: rgba(218, 215, 215, 0.8);
+}
+
+.calculator .calculateButton{
+  margin-top: 10px;
+  width: 100%;
+  background-color: #e6e4e4;
+  box-sizing: border-box;
+}
