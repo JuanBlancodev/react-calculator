@@ -23,7 +23,7 @@ Una simple calculadora desarrollada en React para realizar operaciones matemáti
 
 ## Demo
 
-Puedes probar esta calculadora en vivo presionando [aquí](https://juanblancodev.github.io/react-calculator/)
+Puedes probar esta calculadora en vivo presionando [este enlace](https://juanblancodev.github.io/react-calculator/){:target="_blank"}
 
 ## Clonar el proyecto
 
@@ -72,4 +72,4 @@ Si quieres clonar este proyecto en tu máquina local, sigue estos pasos:
 - **Nombre**
   _Juan Blanco_
 - **GitHub**
-  [@JuanBlancodev](https://github.com/JuanBlancodev)
+  [@JuanBlancodev](https://github.com/JuanBlancodev?tab=repositories)
