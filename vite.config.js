@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     sourcemap: true
   },
-  base: "http://JuanBlancodev.github.io/react-calculator",
+  base: "https://JuanBlancodev.github.io/react-calculator",
   server: {
     cors: true
   }
