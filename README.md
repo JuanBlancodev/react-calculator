@@ -1,11 +1,3 @@
-<style>
-  ul li{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-</style>
-
 <div style="display: flex; align-items: center; gap: 10px;">
   <h1>Calculadora creada con React</h1>
   <img src="screenshots/react.png" alt='ReactJS' widht="50" height="50">
@@ -60,13 +52,13 @@ Si quieres clonar este proyecto en tu máquina local, sigue estos pasos:
 ## Tecnologías utilizadas
 
 <ul>
-  <li>
+  <li style="display: flex; align-items: center; gap: 10px;">
     <img src="screenshots/html-5.png" alt="HTML" width="20" height="20"> <b>HTML</b>
   </li>
-  <li>
+  <li style="display: flex; align-items: center; gap: 10px;">
     <img src="screenshots/css-3.png" alt="CSS" width="20" height="20"> <b>CSS</b>
   </li>
-  <li>
+  <li style="display: flex; align-items: center; gap: 10px;">
     <img src="screenshots/react.png" alt='ReactJS' widht="20" height="20"> <b>React</b>
   </li>
 </ul>
