@@ -21,6 +21,10 @@ Una simple calculadora desarrollada en React para realizar operaciones matemáti
 | **Registro vacío** <br> En esta captura de pantalla se muestra el registro de cálculos de la calculadora, donde se pueden ver los resultados de las operaciones realizadas previamente. | ![Registro vacío](screenshots/log1.png) |
 | **Pantalla de confirmación para vaciar el registro** <br> Para evitar borrar accidentalmente los cálculos registrados, la aplicación muestra una pantalla de confirmación al intentar vaciar el registro. | ![Pantalla de confirmación para vaciar el registro](screenshots/clean_log.png) |
 
+## Demo
+
+Puedes probar esta calculadora en vivo presionando [aquí](https://juanblancodev.github.io/react-calculator/)
+
 ## Clonar el proyecto
 
 Si quieres clonar este proyecto en tu máquina local, sigue estos pasos:
