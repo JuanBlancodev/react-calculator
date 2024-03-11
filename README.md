@@ -23,11 +23,7 @@ Una simple calculadora desarrollada en React para realizar operaciones matemáti
 
 ## Demo
 
-<<<<<<< HEAD
-Puedes probar esta calculadora en vivo presionando [este enlace](https://juanblancodev.github.io/react-calculator/){:target="_blank"}
-=======
 Puedes probar esta calculadora en vivo presionando [este enlace](https://juanblancodev.github.io/react-calculator/)
->>>>>>> db6d13b82c76334f516c8267c2a0e29c758bc0c4
 
 ## Clonar el proyecto
 
