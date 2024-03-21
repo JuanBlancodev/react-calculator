@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
+:root{
+  --width__calculator: 300px;
+
+  --max-height__calculator: 430px;
+
+  --padding__calculator: 20px;
+
+  --background-color__calculator: #f4f4f4;
+
+  --border-radius__calculator: 10px;
+
+  --box-shadow__calculator: 20px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
 body{
   margin: 0;
-
   font-family: "Poppins", sans-serif;
 }
