@@ -35,7 +35,7 @@ const Keys = () => {
 
   return (
     <>
-      <div className="keys">
+      <div className="keys d-grid gap-10">
         { keysArray.map((key, index) => (
           <button 
             className="btn-keys" 
@@ -45,7 +45,7 @@ const Keys = () => {
         <button className="btn-keys" onClick={() => appendToDisplay('.')}>.</button>
         <button className="btn-keys" onClick={() => cleanDisplay()}>C</button>
       </div>
-      <button className="calculateButton btn-keys" onClick={() => calculate()}>
+      <button className="btn-calculate btn-keys" onClick={() => calculate()}>
         <FontAwesomeIcon icon={faEquals} />
       </button>
     </>

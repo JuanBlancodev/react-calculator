@@ -3,6 +3,7 @@
 :root{
   --width__calculator: 300px;
   --width__calculator__display__btn-delete: 30px;
+  --width__calculator__btn-calculate: 100%;
 
   --height__calculator__display: 44px;
   --height__calculator__display__btn-delete: 100%;
@@ -12,6 +13,9 @@
   --padding__calculator: 20px;
   --padding__calculator__display: 10px;
   --padding__calculator__display__btn-delete: 0 5px;
+  --padding__calculator__btn-keys: 20px;
+
+  --margin-top__calculator__btn-calculate: 10px;
 
   --margin-bottom__calculator__display: 10px;
 
@@ -19,21 +23,34 @@
   --bg-color__calculator__display: #fff;
   --bg-color__calculator__display__btn-delete: #e9e9e9;
   --bg-color__calculator__display__btn-delete_hover: #d6d5d5;
+  --bg-color__calculator__btn-keys: #eeeded;
+  --bg-color__calculator__btn-keys_hover: #dad7d7cc;
+  --bg-color__calculator__btn-calculate: #e6e4e4;
 
   --border__calculator__display: 1px solid #ced4da;
   --border__calculator__display--input: none;
+  --border__calculator__btn-keys: none;
 
   --border-radius__calculator: 10px;
+  --border-radius__calculator__btn-keys: 5px;
 
   --box-shadow__calculator: 20px 15px 10px rgba(0, 0, 0, 0.1);
 
+  --box-sizing__calculator__btn-calculate: border-box;
+
   --font-size__calculator__display--input: 20px;
   --font-size__calculator__display__btn-delete__icon: 1.5rem;
+  --font-size__calculator__btn-keys: 18px;
 
   --color__white: #fff;
   --color__calculator__display__btn-delete__icon: #6d6d6d;
 
   --outline__calculator__display--input: none;
+
+  --gap-10: 10px;
+  --gap-100: 100px;
+
+  --grid--template-colums__calulator__keys: repeat(4, 1fr);
 }
 
 body{
@@ -41,9 +58,13 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
-/* Flex */
+/* Display */
 .d-flex{
   display: flex;
+}
+
+.d-grid{
+  display: grid;
 }
 
 /* Jusfity */
@@ -58,6 +79,15 @@ body{
 /* Align */
 .align-center{
   align-items: center;
+}
+
+/* Gap */
+.gap-10{
+  gap: var(--gap-10);
+}
+
+.gap-100{
+  gap: var(--gap-100)
 }
 
 /* Colors */

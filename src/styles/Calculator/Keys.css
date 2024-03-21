@@ -1,27 +1,25 @@
 .calculator .keys{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: var(--grid--template-colums__calulator__keys);
 }
 
 .calculator .btn-keys{
-  padding: 20px;
-  font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  background-color: #eeeded;
+  padding: var(--padding__calculator__btn-keys);
+  font-size: var(--font-size__calculator__btn-keys);
+  border: var(--border__calculator__btn-keys);
+  border-radius: var(--border-radius__calculator__btn-keys);
+  background-color: var(--bg-color__calculator__btn-keys);
   cursor: pointer;
   transition: background-color 0.25s;
   outline: none;
 }
 
 .calculator .btn-keys:hover{
-  background-color: rgba(218, 215, 215, 0.8);
+  background-color: var(--bg-color__calculator__btn-keys_hover);
 }
 
-.calculator .calculateButton{
-  margin-top: 10px;
-  width: 100%;
-  background-color: #e6e4e4;
-  box-sizing: border-box;
+.calculator .btn-calculate{
+  margin-top: var(--margin-top__calculator__btn-calculate);
+  width: var(--width__calculator__btn-calculate);
+  background-color: var(--bg-color__calculator__btn-calculate);
+  box-sizing: var(--box-sizing__calculator__btn-calculate);
 }
