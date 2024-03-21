@@ -1,4 +1,5 @@
 .container-log{
+  position: relative;
   width: var(--width__container-log);
   height: var(--height__container-log);
   max-height: var(--max-height__container-log);
@@ -6,7 +7,6 @@
   border: var(--border__container-log);
   border-radius: var(--border-radius__container-log);
   box-shadow: var(--box-shadow__container-log);
-  position: relative;
 }
 
 .container-log .log-title{

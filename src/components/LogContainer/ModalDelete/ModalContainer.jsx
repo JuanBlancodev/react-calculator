@@ -7,7 +7,7 @@ import '../../../styles/LogContainer/ModalContainer.css'
 const ModalContainer = () => {
   const { modalVisible } = useGlobalContext()
   return (
-    <div className={`modal-delete fadeIn ${modalVisible ? "visible" : ""}`}>
+    <div className={`modal-delete text-center fadeIn ${modalVisible ? "visible" : ""}`}>
         <ModalQuestion />
         <ModalButtons />
     </div>

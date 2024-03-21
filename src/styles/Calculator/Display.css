@@ -8,8 +8,8 @@
 
 .calculator .display input{
   padding: var(--padding__calculator__display);
-  font-size: var(--font-size__calculator__display--input);
   border: var(--border__calculator__display--input);
+  font-size: var(--font-size__calculator__display--input);
   outline: var(--outline__calculator__display--input);
 }
 

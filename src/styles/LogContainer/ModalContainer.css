@@ -1,15 +1,14 @@
 .modal-delete{
   display: none;
   position: absolute;
-  top: 100px;
-  left: 0;
-  transform: translateY(-50%);
-  background-color: #f4f4f4;
-  box-shadow: 20px 15px 10px rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
-  padding: 20px;
-  width: 350px;
-  text-align: center;
+  top: var(--top__modal-delete);
+  left: var(--left__modal-delete);
+  transform: var(--transform__modal-delete);
+  width: var(--wdith__modal-delete);
+  padding: var(--padding__modal-delete);
+  background-color: var(--bg-color__modal-delete);
+  border-radius: var(--border-radius__modal-delete);
+  box-shadow: var(--box-shadow__modal-delete);
 
   animation: fadeIn;
   animation-duration: 0.3s;
@@ -26,41 +25,32 @@
 }
 
 .modal-delete .modal-question{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 35px;
-}
-
-.modal-delete .modal-buttons{
-  display: flex;
-  justify-content: space-around;
+  margin-bottom: var(--margin-bottom__modal-delete__modal-question);
 }
 
 .modal-delete .modal-buttons button{
-  padding: 8px 20px;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  cursor: pointer;
-  letter-spacing: 2px;
-  color: white;
+  padding: var(--padding__modal-delete__modal-buttons_button);
+  border: var(--border__modal-delete__modal-buttons_button);
+  border-radius: var(--border-radius__modal-delete__modal-buttons_button);
+  outline: var(--outline__modal-delete__modal-buttons_button);
 
+  letter-spacing: var(--letter-spacing__modal-delete__modal-buttons_button);
+  cursor: pointer;
   transition: background-color 0.25s;
 }
 
 .modal-delete .modal-buttons .btn-confirm{
-  background-color: #12f561;
+  background-color: var(--color__success);
 }
 
 .modal-delete .modal-buttons .btn-confirm:hover{
-  background-color: #32aa5c;
+  background-color: var(--color__success_hover);
 }
 
 .modal-delete .modal-buttons .btn-cancel{
-  background-color: red;
+  background-color: var(--color__danger);
 }
 
 .modal-delete .modal-buttons .btn-cancel:hover{
-  background-color: rgb(207, 58, 58);
+  background-color: var(--color__danger__hover);
 }

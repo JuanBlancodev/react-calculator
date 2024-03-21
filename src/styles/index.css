@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 :root{
+  --top__modal-delete: 100px;
+
+  --left__modal-delete: 0;
+
+  --transform__modal-delete: translateY(-50%);
+
   --width__calculator: 300px;
   --width__calculator__display__btn-delete: 30px;
   --width__calculator__btn-calculate: 100%;
   --width__container-log: 350px;
+  --wdith__modal-delete: 350px;
 
   --height__calculator__display: 44px;
   --height__calculator__display__btn-delete: 100%;
@@ -18,11 +25,14 @@
   --padding__calculator__display__btn-delete: 0 5px;
   --padding__calculator__btn-keys: 20px;
   --padding__container-log: 20px;
+  --padding__modal-delete: 20px;
+  --padding__modal-delete__modal-buttons_button: 8px 20px;
 
   --margin-top__calculator__btn-calculate: 10px;
   --margin-top__container-log__log-title: 5px;
 
   --margin-bottom__calculator__display: 10px;
+  --margin-bottom__modal-delete__modal-question: 35px;
 
   --bg-color__calculator: #f4f4f4;
   --bg-color__calculator__display: #fff;
@@ -31,18 +41,23 @@
   --bg-color__calculator__btn-keys: #eeeded;
   --bg-color__calculator__btn-keys_hover: #dad7d7cc;
   --bg-color__calculator__btn-calculate: #e6e4e4;
+  --bg-color__modal-delete: #f4f4f4;
 
   --border__calculator__display: 1px solid #ced4da;
   --border__calculator__display--input: none;
   --border__calculator__btn-keys: none;
   --border__container-log: 1px solid #ccc;
+  --border__modal-delete__modal-buttons_button: none;
 
   --border-radius__calculator: 10px;
   --border-radius__calculator__btn-keys: 5px;
   --border-radius__container-log: 5px;
+  --border-radius__modal-delete: 15px;
+  --border-radius__modal-delete__modal-buttons_button: 10px;
 
   --box-shadow__calculator: 20px 15px 10px rgba(0, 0, 0, 0.1);
   --box-shadow__container-log: 0  0 10px #0000001a;
+  --box-shadow__modal-delete: 20px 15px 10px #0000004d;
 
   --box-sizing__calculator__btn-calculate: border-box;
 
@@ -52,8 +67,16 @@
 
   --color__white: #fff;
   --color__calculator__display__btn-delete__icon: #6d6d6d;
+  --color__success: #12f561;
+  --color__success_hover: #32aa5c;
+  --color__danger: #ff0000;
+  --color__danger__hover: #cf3a3a;
 
   --outline__calculator__display--input: none;
+
+  --outline__modal-delete__modal-buttons_button: none;
+
+  --letter-spacing__modal-delete__modal-buttons_button: 2px;
 
   --gap-10: 10px;
   --gap-100: 100px;
@@ -75,6 +98,11 @@ body{
   display: grid;
 }
 
+/* Flex */
+.flex-column{
+  flex-direction: column;
+}
+
 /* Jusfity */
 .justify-center{
   justify-content: center;
@@ -82,6 +110,10 @@ body{
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
 }
 
 /* Align */
