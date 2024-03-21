@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import App from './components/App.jsx'
-import './styles/main.css'
+import './styles/index.css'
 
 import { GlobalContextProvider } from './context/GlobalContext.jsx'
 
