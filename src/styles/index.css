@@ -4,18 +4,23 @@
   --width__calculator: 300px;
   --width__calculator__display__btn-delete: 30px;
   --width__calculator__btn-calculate: 100%;
+  --width__container-log: 350px;
 
   --height__calculator__display: 44px;
   --height__calculator__display__btn-delete: 100%;
+  --height__container-log: 448px;
 
   --max-height__calculator: 430px;
+  --max-height__container-log: 448px;
 
   --padding__calculator: 20px;
   --padding__calculator__display: 10px;
   --padding__calculator__display__btn-delete: 0 5px;
   --padding__calculator__btn-keys: 20px;
+  --padding__container-log: 20px;
 
   --margin-top__calculator__btn-calculate: 10px;
+  --margin-top__container-log__log-title: 5px;
 
   --margin-bottom__calculator__display: 10px;
 
@@ -30,11 +35,14 @@
   --border__calculator__display: 1px solid #ced4da;
   --border__calculator__display--input: none;
   --border__calculator__btn-keys: none;
+  --border__container-log: 1px solid #ccc;
 
   --border-radius__calculator: 10px;
   --border-radius__calculator__btn-keys: 5px;
+  --border-radius__container-log: 5px;
 
   --box-shadow__calculator: 20px 15px 10px rgba(0, 0, 0, 0.1);
+  --box-shadow__container-log: 0  0 10px #0000001a;
 
   --box-sizing__calculator__btn-calculate: border-box;
 
@@ -94,4 +102,9 @@ body{
 
 .color-white{
   color: var(--color__white);
+}
+
+/* Text */
+.text-center{
+  text-align: center;
 }

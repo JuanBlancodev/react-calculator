@@ -8,7 +8,7 @@ const LogContainer = () => {
   const { log, cleanLog } = useGlobalContext()
   return (
     <div className="container-log">
-       <h1 className="log-title">Registro de cálculos</h1>
+       <h1 className="log-title text-center">Registro de cálculos</h1>
        <Table />
 
        <button 

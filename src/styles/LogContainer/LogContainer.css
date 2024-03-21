@@ -1,15 +1,14 @@
 .container-log{
-  width: 350px;
-  height: 448px;
-  max-height: 448px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: var(--width__container-log);
+  height: var(--height__container-log);
+  max-height: var(--max-height__container-log);
+  padding: var(--padding__container-log);
+  border: var(--border__container-log);
+  border-radius: var(--border-radius__container-log);
+  box-shadow: var(--box-shadow__container-log);
   position: relative;
 }
 
 .container-log .log-title{
-  margin-top: 5px;
-  text-align: center;
+  margin-top: var(--margin-top__container-log__log-title);
 }
