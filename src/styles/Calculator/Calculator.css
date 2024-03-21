@@ -1,7 +1,7 @@
 .calculator{
   width: var(--width__calculator);
   max-height: var(--max-height__calculator);
-  background-color: var(--background-color__calculator);
+  background-color: var(--bg-color__calculator);
   padding: var(--padding__calculator);
   border-radius: var(--border-radius__calculator);
   box-shadow: var(--border-radius__calculator);

@@ -7,9 +7,9 @@ import '../../styles/Calculator/Display.css'
 const Display = () => {
   const { display, deleteLastCharacter } = useGlobalContext()
   return (
-    <div className="display">
+    <div className="display d-flex justify-between align-center">
       <input type="text" disabled value={display} />
-      <div className="btn-delete" onClick={() => deleteLastCharacter()}>
+      <div className="btn-delete d-flex justify-center align-center" onClick={() => deleteLastCharacter()}>
         <FontAwesomeIcon icon={faDeleteLeft} className="icon__delete-left" />
       </div>
     </div>

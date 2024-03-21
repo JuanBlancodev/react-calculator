@@ -1,45 +1,37 @@
 .calculator .display{
   /* width: calc(100% - 25px); */
-  margin-bottom: 10px;
-  background-color: white;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #ced4da;
-  height: 44px;
+  height: var(--height__calculator__display);
+  margin-bottom: var(--margin-bottom__calculator__display);
+  background-color: var(--bg-color__calculator__display);
+  border: var(--border__calculator__display);
 }
 
 .calculator .display input{
-  padding: 10px;
-  font-size: 20px;
-  border: none;
-  outline: none;
+  padding: var(--padding__calculator__display);
+  font-size: var(--font-size__calculator__display--input);
+  border: var(--border__calculator__display--input);
+  outline: var(--outline__calculator__display--input);
 }
 
 .calculator .display .btn-delete{
-  padding-right: 5px;
-  height: 100%;
-  width: 30px;
-  background-color: rgb(233, 233, 233);
+  width: var(--width__calculator__display__btn-delete);
+  height: var(--height__calculator__display__btn-delete);
+  padding: var(--padding__calculator__display__btn-delete);
+  background-color: var(--bg-color__calculator__display__btn-delete);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 5px;
   cursor: pointer;
   transition: background-color 0.25s;
 }
 
 .calculator .display .btn-delete .icon__delete-left{
-  font-size: 1.5rem;
-  color: rgb(109, 109, 109);
+  font-size: var(--font-size__calculator__display__btn-delete__icon);
+  color: var(--color__calculator__display__btn-delete__icon);
 }
 
 .calculator .display .btn-delete:hover{
-  background-color: rgb(214, 213, 213);
+  background-color: var(--bg-color__calculator__display__btn-delete_hover);
 }
 
 .calculator .display .btn-delete:hover .icon__delete-left{
-  color: white;
+  color: var(--color__white);
 }
