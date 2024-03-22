@@ -1,4 +1,4 @@
-# Changelog
+# Releases
 
 ## [Unreleased]
 
