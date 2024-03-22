@@ -1,3 +1,4 @@
+import styled from 'styled-components'
 import useGlobalContext from '../../hooks/useGlobalContext'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { 
@@ -11,7 +12,34 @@ import {
   fa0,
   faEquals
 } from "@fortawesome/free-solid-svg-icons"
-import '../../styles/Calculator/Keys.css'
+
+const KeysContainer = styled.div`
+  grid-template-columns: var(--grid--template-colums__calulator__keys);
+`
+
+const BtnKeys = styled.button`
+  &.btn-keys{
+    padding: var(--padding__calculator__btn-keys);
+    background-color: var(--bg-color__calculator__btn-keys);
+    border: var(--border__calculator__btn-keys);
+    border-radius: var(--border-radius__calculator__btn-keys);
+    font-size: var(--font-size__calculator__btn-keys);
+    cursor: pointer;
+    transition: background-color 0.25s;
+    outline: none;
+  }
+
+  &.btn-calculate{
+    width: var(--width__calculator__btn-calculate);
+      margin-top: var(--margin-top__calculator__btn-calculate);
+      background-color: var(--bg-color__calculator__btn-calculate);
+      box-sizing: var(--box-sizing__calculator__btn-calculate);
+  }
+
+  &:hover{
+    background-color: var(--bg-color__calculator__btn-keys_hover);
+  }
+`
 
 const Keys = () => {
   const keysArray = [
@@ -35,19 +63,19 @@ const Keys = () => {
 
   return (
     <>
-      <div className="keys d-grid gap-10">
+      <KeysContainer className="keys d-grid gap-10">
         { keysArray.map((key, index) => (
-          <button 
+          <BtnKeys 
             className="btn-keys" 
             key={index}
-            onClick={() => appendToDisplay(key.symbol)}><FontAwesomeIcon icon={key.value} /> </button>
+            onClick={() => appendToDisplay(key.symbol)}><FontAwesomeIcon icon={key.value} /> </BtnKeys>
         )) }
-        <button className="btn-keys" onClick={() => appendToDisplay('.')}>.</button>
-        <button className="btn-keys" onClick={() => cleanDisplay()}>C</button>
-      </div>
-      <button className="btn-calculate btn-keys" onClick={() => calculate()}>
+        <BtnKeys className="btn-keys" onClick={() => appendToDisplay('.')}>.</BtnKeys>
+        <BtnKeys className="btn-keys" onClick={() => cleanDisplay()}>C</BtnKeys>
+      </KeysContainer>
+      <BtnKeys className="btn-calculate btn-keys" onClick={() => calculate()}>
         <FontAwesomeIcon icon={faEquals} />
-      </button>
+      </BtnKeys>
     </>
   )
 }
