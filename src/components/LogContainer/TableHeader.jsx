@@ -1,8 +1,8 @@
 const TableHeader = () => {
   return (
-    <div className="table-header">
-        <div className="item-header">Fórmula</div>
-        <div className="item-header">Resultado</div>
+    <div className="table-header d-grid column-1-1">
+        <div className="item-header font-bold text-center">Fórmula</div>
+        <div className="item-header font-bold text-center">Resultado</div>
     </div>
   )
 }

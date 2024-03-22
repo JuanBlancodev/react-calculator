@@ -1,52 +1,39 @@
 .table {
-  flex: 1;
-  margin-top: 20px;
+  margin-top: var(--margin-top__table);
   overflow-y: auto;
 }
 
 .table-header{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-bottom: 15px;
+  margin-bottom: var(--margin-bottom__table-header);
 }
 
 .item-header {
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-  background-color: #f0f0f0;
-  height: 20px;
+  height: var(--height__item-header);
+  padding: var(--padding__item-header);
+  background-color: var(--bg-color__item-header);
 }
 
 .table-results{
-  height: 270px;
-}
-
-.table-result-item{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  height: var(--height__table-results);
 }
 
 .table-item {
-padding: 10px;
-border-radius: 5px;
-background-color: #f8f9fa;
-border: 1px solid #ced4da;
-margin-bottom: 10px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-transition: transform 0.3s, box-shadow 0.3s;
-text-align: center;
+  margin-bottom: var(--margin-bottom__table-item);
+  padding: var(--padding__table-item);
+  border: var(--border__table-item);
+  border-radius: var(--border-radius__table-item);
+  background-color: var(--bg-color__table-item);
+  box-shadow: var(--box-shadow__table-item);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .table-item:hover {
-transform: translateY(-3px);
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .table-item span {
-margin-right: 10px;
+  margin-right: var(--margin-right__table-item_span);
 }
 
 .table-item.item-formula{
@@ -55,22 +42,20 @@ margin-right: 10px;
 
 .btn__clear-log {
   display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 20px;
-  text-align: center;
-  background-color: #f73f3f;
-  color: white;
-  border: none;
-  border-radius: 5px;
+  width: var(--width__btn__clear-log);
+  padding: var(--padding__btn__clear-log);
+  margin-top: var(--margin-top__btn__clear-log);
+  background-color: var(--bg-color__btn__clear-log);
+  border: var(--border-radius__btn__clear-log);
+  border-radius: var(--border-radius__btn__clear-log);
   cursor: pointer;
   transition: background-color 0.25s ease-in-out;
 }
 
 .btn__clear-log:hover {
-  background-color: #f65d5d;
+  background-color: var(--bg-color__btn__clear-log_hover);
 }
 
 .btn__clear-log:disabled{
-  background-color: rgb(184, 184, 184);
+  background-color: var(--bg-color__btn__clear-log_disabled);
 }

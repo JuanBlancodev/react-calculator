@@ -12,7 +12,7 @@ const LogContainer = () => {
        <Table />
 
        <button 
-          className="btn__clear-log" 
+          className="btn__clear-log text-center color-white" 
           disabled={log.length === 0}
           onClick={() => cleanLog()}>Limpiar registros</button>
           

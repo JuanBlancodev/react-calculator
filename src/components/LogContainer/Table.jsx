@@ -5,10 +5,9 @@ import '../../styles/LogContainer/Table.css'
 
 const Table = () => {
   return (
-    <div className="table">
+    <div className="table d-grid gap-10">
         <TableHeader />
         <TableBody />
-        
     </div>
   )
 }
