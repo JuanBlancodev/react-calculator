@@ -20,6 +20,7 @@
     "@vituum/vite-plugin-postcss": "^1.1.0",
     "animate.css": "^4.1.1",
     "gh-pages": "^6.1.1",
+    "mathjs": "^12.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-header-watermark": "^1.2.2",
