@@ -13,7 +13,7 @@ const App = () => {
     <>
       {/* <Header /> */}
       <HeaderWatermark projectName={PROJECT_NAME} github={GITHUB} />
-      <div className="container">
+      <div className="container text-center d-flex justify-center gap-100 flex-wrap">
         <Calculator />
         <LogContainer />
       </div>

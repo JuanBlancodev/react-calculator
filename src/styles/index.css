@@ -38,6 +38,7 @@
   --margin-top__container-log__log-title: 5px;
   --margin-top__table: 20px;
   --margin-top__btn__clear-log: 20px;
+  --margin-top__container: 50px;
 
   --margin-right__table-item_span: 10px;
 
@@ -132,6 +133,10 @@ body{
 
 .flex{
   flex: 1;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 /* Jusfity */
