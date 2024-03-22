@@ -17,7 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "animate.css": "^4.1.1",
-    "mathjs": "^12.4.1",
+    "exact-math": "^2.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-header-watermark": "^1.2.2",

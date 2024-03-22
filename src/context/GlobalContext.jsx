@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-// import { evaluate } from 'mathjs'
+import { formula as evaluate } from 'exact-math'
 
 const GlobalContext = createContext()
 
@@ -18,9 +18,8 @@ const GlobalContextProvider = ({ children }) => {
     if(display.length < 3) return;
     const formula = display.replace(/([^0-9.])/g, ' $1 ');
 
-    // const replacedDisplay = display.replace(/x/g, '*').replace(/÷/g, '/');
-    // const result = evaluate(replacedDisplay).toString().replace(/\*/g, 'x').replace(/\//g, '÷');
-    const result = 1
+    const replacedDisplay = display.replace(/x/g, '*').replace(/÷/g, '/');
+    const result = evaluate(replacedDisplay).toString().replace(/\*/g, 'x').replace(/\//g, '÷');
 
     setDisplay(result)
     setLog([...log, { formula, result }])
