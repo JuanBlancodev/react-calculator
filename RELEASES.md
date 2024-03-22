@@ -1,7 +1,5 @@
 # Releases
 
-## [Unreleased]
-
 ## [1.1.0] - 2024-03-22
 ### Updated
 - Todos los estilos se han almacenado en el 'root' de 'index.css'
