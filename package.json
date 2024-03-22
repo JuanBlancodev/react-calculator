@@ -16,6 +16,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@rollup/plugin-terser": "^0.4.4",
     "@vituum/vite-plugin-postcss": "^1.1.0",
     "animate.css": "^4.1.1",
     "gh-pages": "^6.1.1",
